@@ -28,8 +28,8 @@ setup(
         "Topic :: System :: Systems Administration",
     ],
     packages=find_packages(),
-    python_requires=">=3.10",
-    install_requires=["setuptools>=39.0.1", "requests>=2.20.0", "dnspython~=2.7"],
+    python_requires=">=3.9",
+    install_requires=["setuptools>=39.0.1", "requests>=2.20.0", "dnspython>=2.6"],
     entry_points={
         "console_scripts": [
             "pkb-client = pkb_client.cli.cli:main",
